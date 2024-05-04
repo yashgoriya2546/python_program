@@ -20,3 +20,9 @@ def average(*numbers):
 c = average(10,40,60,80,10)
 print(c)
 
+
+
+def information(**args):
+    print('The name is ' + args['name'] + ', the city is ' + args['city'] + ', and the phone number is ' + args['phone_num'])
+
+information(name='yash', city='Morbi', phone_num='8866062681')
